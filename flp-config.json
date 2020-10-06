@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "poc.zExportExcel",
+        "description": "Export Excel Demo",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#zExportExcel-Display",
+        "navigationComponentName": "poc",
+        "intentSemanticObject": "zExportExcel",
+        "intentAction": "Display",
+        "html5ApplicationName": "zexportexcel",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "46fe9fa0-afdb-4221-8712-fec85d1e8400-1555043785238"
+        ],
+        "contentPackages": [
+            "37e7742e-74da-42e1-878f-a6514a2ab3c4-1555043729371"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Export Excel",
+        "subtitle": "Demo",
+        "searchKeywords": "Export Excel,Demo",
+        "displayIconUrl": "sap-icon://excel-attachment",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

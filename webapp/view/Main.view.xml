@@ -1,0 +1,41 @@
+<mvc:View controllerName="poc.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Table items="{tabAlias>/Result}">
+						<columns>
+							<Column>
+								<ObjectIdentifier title="Name"/>
+							</Column>
+							<Column>
+								<ObjectIdentifier title="Mobile"/>
+							</Column>
+							<Column>
+								<ObjectIdentifier title="E-mail"/>
+							</Column>
+							<Column>
+								<ObjectIdentifier title="Address"/>
+							</Column>
+						</columns>
+						<ColumnListItem>
+							<cells>
+								<Text text="{tabAlias>name}"/>
+								<Text text="{tabAlias>mobile}"/>
+								<Text text="{tabAlias>mail}"/>
+								<Text text="{tabAlias>address}"/>
+							</cells>
+						</ColumnListItem>
+					</Table>
+				</content>
+				<footer>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<Button type="Accept" press="handleExcelExport" text="Export Excel"/>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
